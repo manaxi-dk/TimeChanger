@@ -1,0 +1,13 @@
+{
+  "timechanger": {
+    "settings": {
+      "name": "TimeChanger",
+      "enabled": {
+        "name": "Enabled"
+      }
+    },
+    "commands": {
+      "arg1": "You need to specify what time you would like to set it to!"
+    }
+  }
+}
