@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod.labymod4:util-reference:0.1.0-snapshot-1e7ee86e" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod.labymod4" artifactId="util-reference" version="0.1.0-snapshot-1e7ee86e" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/util-reference/0.1.0-snapshot-1e7ee86e/5d4c2452f0b3bc0331e406c30645e9b3508ffa78/util-reference-0.1.0-snapshot-1e7ee86e.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

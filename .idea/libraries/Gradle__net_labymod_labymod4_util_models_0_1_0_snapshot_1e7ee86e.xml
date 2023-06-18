@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod.labymod4:util-models:0.1.0-snapshot-1e7ee86e" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod.labymod4" artifactId="util-models" version="0.1.0-snapshot-1e7ee86e" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/util-models/0.1.0-snapshot-1e7ee86e/2d195430f8b6d2d3870c2c249122dff68461788f/util-models-0.1.0-snapshot-1e7ee86e.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/util-models/0.1.0-snapshot-1e7ee86e/42e50c9f751f371a82ae71efdd29e17ad7a6e780/util-models-0.1.0-snapshot-1e7ee86e-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

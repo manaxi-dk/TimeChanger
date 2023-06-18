@@ -7,7 +7,12 @@
       }
     },
     "commands": {
-      "arg1": "You need to specify what time you would like to set it to!"
+      "arg1": "You need to specify what time you would like to set it to!",
+      "help": {
+        "line1": "/time set <time> (time can be \"day\", \"night\", \"sunset\" or a custom time)",
+        "line2": "/time add <time>",
+        "line3": "/time reset (change time to the default)"
+      }
     }
   }
 }

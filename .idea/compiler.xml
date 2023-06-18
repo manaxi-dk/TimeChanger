@@ -12,10 +12,10 @@
         <option name="addonRequiredLabyModBuild" value="810" />
         <option name="addonVersion" value="0.0.1" />
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="api" />
         <option name="referenceType" value="INTERFACE" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="main" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/processor/0.1.0-snapshot-1e7ee86e/feeec5adbcd128f59fc53e238108507248a179aa/processor-0.1.0-snapshot-1e7ee86e.jar" />
@@ -49,7 +49,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.api.main" />
+        <module name="timechanger.api.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -61,10 +61,10 @@
         <option name="addonRequiredLabyModBuild" value="810" />
         <option name="addonVersion" value="0.0.1" />
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="core" />
         <option name="referenceType" value="DEFAULT" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="main" />
         <processorPath useClasspath="false">
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/processor/0.1.0-snapshot-1e7ee86e/feeec5adbcd128f59fc53e238108507248a179aa/processor-0.1.0-snapshot-1e7ee86e.jar" />
@@ -98,7 +98,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.core.main" />
+        <module name="timechanger.core.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -114,18 +114,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.18.2.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_18_2Java\1.18.2-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.18.2.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.18.2.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.18.2.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_18_2Java\1.18.2-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.18.2.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.18.2.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_18_2.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.18.2\client-1.18.2-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.18.2\client-1.18.2-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.18.2" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_18_2" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -160,7 +160,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_18_2" />
+        <module name="timechanger.game-runner.v1_18_2" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -176,18 +176,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.6.6" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.16.5.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_16_5Java\1.16.5-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.16.5.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.16.5.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.16.5.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_16_5Java\1.16.5-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.16.5.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.16.5.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_16_5.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.16.5\client-1.16.5-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.16.5\client-1.16.5-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.16.5" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_16_5" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -222,7 +222,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_16_5" />
+        <module name="timechanger.game-runner.v1_16_5" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -238,18 +238,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.2.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_19_2Java\1.19.2-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.2.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.2.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.2.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_19_2Java\1.19.2-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.2.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.2.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_19_2.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.2\client-1.19.2-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.2\client-1.19.2-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.19.2" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_19_2" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -284,7 +284,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_19_2" />
+        <module name="timechanger.game-runner.v1_19_2" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -300,18 +300,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.17.1.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_17_1Java\1.17.1-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.17.1.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.17.1.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.17.1.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_17_1Java\1.17.1-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.17.1.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.17.1.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_17_1.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.17.1\client-1.17.1-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.17.1\client-1.17.1-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.17.1" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_17_1" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -346,7 +346,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_17_1" />
+        <module name="timechanger.game-runner.v1_17_1" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -362,18 +362,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.6.6" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.8.9.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_8_9Java\1.8.9-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.8.9.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.8.9.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.8.9.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_8_9Java\1.8.9-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.8.9.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.8.9.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_8_9.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.8.9\client-1.8.9-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.8.9\client-1.8.9-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.8.9" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_8_9" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -406,7 +406,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_8_9" />
+        <module name="timechanger.game-runner.v1_8_9" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -422,18 +422,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.6.6" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.12.2.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_12_2Java\1.12.2-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.12.2.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.12.2.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.12.2.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_12_2Java\1.12.2-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.12.2.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.12.2.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_12_2.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.12.2\client-1.12.2-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.12.2\client-1.12.2-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.12.2" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_12_2" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -466,7 +466,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_12_2" />
+        <module name="timechanger.game-runner.v1_12_2" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -478,10 +478,10 @@
         <option name="addonRequiredLabyModBuild" value="810" />
         <option name="addonVersion" value="0.0.1" />
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="main" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -516,7 +516,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.main" />
+        <module name="timechanger.game-runner.main" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -532,18 +532,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.20.1.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_20_1Java\1.20.1-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.20.1.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.20.1.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.20.1.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_20_1Java\1.20.1-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.20.1.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.20.1.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_20_1.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.20.1\client-1.20.1-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.20.1\client-1.20.1-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.20.1" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_20_1" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -578,7 +578,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_20_1" />
+        <module name="timechanger.game-runner.v1_20_1" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -594,18 +594,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.3.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_19_3Java\1.19.3-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.3.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.3.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.3.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_19_3Java\1.19.3-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.3.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.3.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_19_3.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.3\client-1.19.3-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.3\client-1.19.3-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.19.3" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_19_3" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -640,7 +640,7 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_19_3" />
+        <module name="timechanger.game-runner.v1_19_3" />
       </profile>
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
@@ -656,18 +656,18 @@
         <option name="defaultPackageName" value="dk.manaxi.timechanger" />
         <option name="mappingTypes" value="tsrg" />
         <option name="minVersion" value="0.8.2" />
-        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.4.srg-notched" />
-        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\tmp\compileV1_19_4Java\1.19.4-TimeChanger.refmap.json" />
-        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.4.srg" />
-        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\TimeChanger\game-runner\build\mappings\1.19.4.tsrg" />
+        <option name="outNotchSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.4.srg-notched" />
+        <option name="outRefMapFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\tmp\compileV1_19_4Java\1.19.4-timechanger.refmap.json" />
+        <option name="outSrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.4.srg" />
+        <option name="outTsrgFile" value="C:\Users\mhoff\Desktop\timechanger\game-runner\build\mappings\1.19.4.tsrg" />
         <option name="packageNames" value="dk.manaxi.timechanger.v1_19_4.mixins" />
-        <option name="projectId" value="TimeChanger" />
+        <option name="projectId" value="timechanger" />
         <option name="projectName" value="game-runner" />
         <option name="referenceType" value="INTERFACE" />
         <option name="reobfNotchSrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.4\client-1.19.4-mappings-renamed-obfuscated.srg" />
         <option name="reobfTsrgFile" value="C:\Users\mhoff\.gradle\caches\labymod-gradle\repository\net\minecraft\client\1.19.4\client-1.19.4-mappings-renamed-obfuscated.tsrg" />
         <option name="runningVersion" value="1.19.4" />
-        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\TimeChanger\build\shared-index\shared-index.json" />
+        <option name="sharedIndexPath" value="C:\Users\mhoff\Desktop\timechanger\build\shared-index\shared-index.json" />
         <option name="sourceSetName" value="v1_19_4" />
         <option name="versionedModule" value="true" />
         <processorPath useClasspath="false">
@@ -702,9 +702,13 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" />
         </processorPath>
-        <module name="TimeChanger.game-runner.v1_19_4" />
+        <module name="timechanger.game-runner.v1_19_4" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="timechanger.game-runner" target="18" />
+      <module name="timechanger.game-runner.main" target="18" />
+      <module name="timechanger.game-runner.test" target="18" />
+    </bytecodeTargetLevel>
   </component>
 </project>

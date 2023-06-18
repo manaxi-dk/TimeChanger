@@ -16,7 +16,9 @@ public class TimeCommand extends Command {
 
   @Override
   public boolean execute(String prefix, String[] arguments) {
-
+    displayMessage(Component.translatable("timechanger.commands.help.line1"));
+    displayMessage(Component.translatable("timechanger.commands.help.line2"));
+    displayMessage(Component.translatable("timechanger.commands.help.line3"));
     return true;
   }
 }

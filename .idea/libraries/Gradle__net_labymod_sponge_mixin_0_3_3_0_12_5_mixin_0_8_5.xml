@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod:sponge-mixin:0.3.3+0.12.5+mixin.0.8.5" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod" artifactId="sponge-mixin" version="0.3.3+0.12.5+mixin.0.8.5" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod/sponge-mixin/0.3.3+0.12.5+mixin.0.8.5/50fe08552653d5cb98867b94785bd459f611e648/sponge-mixin-0.3.3+0.12.5+mixin.0.8.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod/sponge-mixin/0.3.3+0.12.5+mixin.0.8.5/68cea7349cc8f838ae85f3b457fd1c944cc7a1fc/sponge-mixin-0.3.3+0.12.5+mixin.0.8.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

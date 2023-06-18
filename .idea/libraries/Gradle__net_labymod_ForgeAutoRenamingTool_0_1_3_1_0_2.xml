@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod:ForgeAutoRenamingTool:0.1.3+1.0.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod" artifactId="ForgeAutoRenamingTool" version="0.1.3+1.0.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod/ForgeAutoRenamingTool/0.1.3+1.0.2/30de88b63ee132a3e48a63a1ca894d1481ed3ead/ForgeAutoRenamingTool-0.1.3+1.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod/ForgeAutoRenamingTool/0.1.3+1.0.2/c781bfe121aabaec9fb0db53472740f37b1a2d61/ForgeAutoRenamingTool-0.1.3+1.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

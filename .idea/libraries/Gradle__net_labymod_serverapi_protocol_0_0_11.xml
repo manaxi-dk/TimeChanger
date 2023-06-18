@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod.serverapi:protocol:0.0.11" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod.serverapi" artifactId="protocol" version="0.0.11" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.serverapi/protocol/0.0.11/e20a3d3cc296a97a1bdb21731a736a05da966e30/protocol-0.0.11.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.serverapi/protocol/0.0.11/7edb984705edf69a5c2468c8145af149b9090015/protocol-0.0.11-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

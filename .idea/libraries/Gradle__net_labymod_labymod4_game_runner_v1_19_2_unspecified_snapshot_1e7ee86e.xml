@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: net.labymod.labymod4:game-runner:v1_19_2:unspecified-snapshot-1e7ee86e" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.labymod.labymod4" artifactId="game-runner" version="unspecified-snapshot-1e7ee86e" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/game-runner/unspecified-snapshot-1e7ee86e/e83bc1243a02dad9aed1c7522d6b0cf0e75d9afe/game-runner-unspecified-snapshot-1e7ee86e-v1_19_2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

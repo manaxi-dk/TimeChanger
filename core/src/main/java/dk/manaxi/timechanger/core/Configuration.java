@@ -10,7 +10,6 @@ public class Configuration extends AddonConfig {
 
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
-
   private static final ConfigProperty<Long> time = new ConfigProperty<>(-1L);
 
   @Override

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: net.minecraft:launchwrapper:3.1.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="net.minecraft" artifactId="launchwrapper" version="3.1.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/3.1.2/bccf3a696d951139c3133abb2df052c0a7c8632/launchwrapper-3.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/3.1.2/a20c5dbbdc3238c84adc40cfaafa5afc7274f161/launchwrapper-3.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
