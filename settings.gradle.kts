@@ -1,4 +1,4 @@
-rootProject.name = "TimeChanger"
+rootProject.name = "timechanger"
 
 pluginManagement {
     val labyGradlePluginVersion = "0.3.25"
