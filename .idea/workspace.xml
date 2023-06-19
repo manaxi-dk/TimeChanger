@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="141f7a77-603c-441d-ae03-ba240e2b5c1f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
@@ -27,6 +26,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_8_9.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/Configuration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/assets/timechanger/i18n/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/assets/timechanger/i18n/en_us.json" afterDir="false" />
@@ -237,7 +237,7 @@
       <updated>1687123005913</updated>
       <workItem from="1687123012086" duration="1497000" />
       <workItem from="1687126047550" duration="4000" />
-      <workItem from="1687126093612" duration="794000" />
+      <workItem from="1687126093612" duration="1772000" />
     </task>
     <servers />
   </component>
