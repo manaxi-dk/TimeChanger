@@ -1,17 +1,10 @@
 package dk.manaxi.timechanger.v1_16_5.mixins;
 
 import dk.manaxi.timechanger.core.TimeChanger;
-import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;
-import net.minecraft.client.multiplayer.ClientLevel.ClientLevelData;
-import org.spongepowered.asm.mixin.Final;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 import org.spongepowered.asm.mixin.Shadow;
-import org.spongepowered.asm.mixin.injection.At;
-import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ClientLevel.ClientLevelData.class)
 public class MixinWorldInfo {
@@ -23,7 +16,7 @@ public class MixinWorldInfo {
    */
   @Overwrite
   public long getDayTime() {
-    if(TimeChanger.instance.getTime() != -1) {
+    if(TimeChanger.instance.configuration().customTime().get() && TimeChanger.instance.configuration().enabled().get()) {
       return TimeChanger.instance.getTime();
     }
     return dayTime;

@@ -13,7 +13,7 @@ public class TimeResetCommand extends SubCommand {
 
   @Override
   public boolean execute(String prefix, String[] arguments) {
-    addon.setTime(-1);
+    addon.configuration().customTime().set(false);
     return true;
   }
 }

@@ -16,7 +16,7 @@ public class MixinWorldInfo {
    */
   @Overwrite
   public long getDayTime() {
-    if(TimeChanger.instance.getTime() != -1) {
+    if(TimeChanger.instance.configuration().customTime().get() && TimeChanger.instance.configuration().enabled().get()) {
       return TimeChanger.instance.getTime();
     }
     return dayTime;

@@ -5,31 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="141f7a77-603c-441d-ae03-ba240e2b5c1f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api/TimeChanger.api.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/api/TimeChanger.api.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/TimeChanger.core.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/core/TimeChanger.core.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_12_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_16_5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_17_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_18_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_19_2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_19_3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_19_4.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_20_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/game-runner/TimeChanger.game-runner.v1_8_9.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeResetCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/dk/manaxi/timechanger/core/commands/TimeResetCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/resources/assets/timechanger/i18n/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/resources/assets/timechanger/i18n/en_us.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_12_2/java/dk/manaxi/timechanger/v1_12_2/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_12_2/java/dk/manaxi/timechanger/v1_12_2/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_16_5/java/dk/manaxi/timechanger/v1_16_5/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_16_5/java/dk/manaxi/timechanger/v1_16_5/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_17_1/java/dk/manaxi/timechanger/v1_17_1/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_17_1/java/dk/manaxi/timechanger/v1_17_1/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_18_2/java/dk/manaxi/timechanger/v1_18_2/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_18_2/java/dk/manaxi/timechanger/v1_18_2/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_19_2/java/dk/manaxi/timechanger/v1_19_2/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_19_2/java/dk/manaxi/timechanger/v1_19_2/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_19_3/java/dk/manaxi/timechanger/v1_19_3/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_19_3/java/dk/manaxi/timechanger/v1_19_3/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_19_4/java/dk/manaxi/timechanger/v1_19_4/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_19_4/java/dk/manaxi/timechanger/v1_19_4/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_20_1/java/dk/manaxi/timechanger/v1_20_1/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_20_1/java/dk/manaxi/timechanger/v1_20_1/mixins/MixinWorldInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/game-runner/src/v1_8_9/java/dk/manaxi/timechanger/v1_8_9/mixins/MixinWorldInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/game-runner/src/v1_8_9/java/dk/manaxi/timechanger/v1_8_9/mixins/MixinWorldInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +29,9 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -47,19 +39,24 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="timechanger" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,6 +64,12 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.gradle/caches/labymod-gradle/repository/net/minecraft/client/1.16.5/client-1.16.5.jar!/fernflower_abstract_parameter_names.txt" root0="FORCE_HIGHLIGHTING" />
     <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/api/0.1.0-snapshot-1e7ee86e/839f66e25f73c58d5139873e4e81ba02eab27a6f/api-0.1.0-snapshot-1e7ee86e-sources.jar!/net/labymod/api/client/gui/screen/widget/widgets/input/SwitchWidget.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/api/0.1.0-snapshot-be383213/761a0cbde6d1f7e4861b82dbaff1187022ae7648/api-0.1.0-snapshot-be383213-sources.jar!/net/labymod/api/client/gui/screen/widget/widgets/input/SwitchWidget.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/core/4.0.0-snapshot-be383213/dd77fda33252dc82ea48c917411a0363f37842aa/core-4.0.0-snapshot-be383213.jar!/build-data.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.labymod.labymod4/core/4.0.0-snapshot-be383213/dd77fda33252dc82ea48c917411a0363f37842aa/core-4.0.0-snapshot-be383213.jar!/legacyAddons.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2ROZEelru1amUNsIlnkqrPN3021" />
   <component name="ProjectViewState">
@@ -78,11 +81,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "setting",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -238,10 +245,17 @@
       <workItem from="1687123012086" duration="1497000" />
       <workItem from="1687126047550" duration="4000" />
       <workItem from="1687126093612" duration="1772000" />
+      <workItem from="1687216815433" duration="2565000" />
+      <workItem from="1687374417183" duration="38000" />
+      <workItem from="1687381049948" duration="4907000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

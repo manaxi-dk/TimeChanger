@@ -4,6 +4,12 @@
       "name": "TimeChanger",
       "enabled": {
         "name": "Enabled"
+      },
+      "customTime": {
+        "name": "Custom time"
+      },
+      "time": {
+        "name": "Time"
       }
     },
     "commands": {
