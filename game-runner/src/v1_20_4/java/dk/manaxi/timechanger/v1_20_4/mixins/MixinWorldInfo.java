@@ -1,4 +1,4 @@
-package dk.manaxi.timechanger.v1_20_3.mixins;
+package dk.manaxi.timechanger.v1_20_4.mixins;
 
 import dk.manaxi.timechanger.core.TimeChanger;
 import net.minecraft.client.multiplayer.ClientLevel.ClientLevelData;
