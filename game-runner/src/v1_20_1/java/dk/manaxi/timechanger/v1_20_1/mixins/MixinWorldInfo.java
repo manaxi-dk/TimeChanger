@@ -11,8 +11,8 @@ public class MixinWorldInfo {
   @Shadow
   private long dayTime;
   /**
-   * @author
-   * @reason
+   * @author Itz_Hoffe
+   * @reason Set the time to the custom time if enabled
    */
   @Overwrite
   public long getDayTime() {

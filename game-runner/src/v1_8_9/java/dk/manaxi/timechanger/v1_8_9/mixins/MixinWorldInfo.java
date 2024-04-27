@@ -10,10 +10,10 @@ import org.spongepowered.asm.mixin.Shadow;
 public class MixinWorldInfo {
   @Shadow
   private long worldTime;
-
+  
   /**
-   * @author
-   * @reason
+   * @author Itz_Hoffe
+   * @reason Set the time to the custom time if enabled
    */
   @Overwrite
   public long getWorldTime() {
