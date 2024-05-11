@@ -1,6 +1,5 @@
 package dk.manaxi.timechanger.v1_8_9.mixins;
 
-import net.minecraft.client.Minecraft;
 import net.minecraft.world.storage.WorldInfo;
 import dk.manaxi.timechanger.core.TimeChanger;
 import org.spongepowered.asm.mixin.Mixin;
@@ -21,7 +20,6 @@ public class MixinWorldInfo {
     if(TimeChanger.instance.configuration().customTime().get() && TimeChanger.instance.configuration().enabled().get()) {
       return TimeChanger.instance.getTime();
     }
-    Minecraft.getMinecraft().thePlayer.fishEntity.getDistance()
     return worldTime;
   }
 }
