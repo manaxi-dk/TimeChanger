@@ -1,7 +1,7 @@
 rootProject.name = "timechanger"
 
 pluginManagement {
-    val labyGradlePluginVersion = "0.5.4"
+    val labyGradlePluginVersion = "0.5.6"
     buildscript {
         repositories {
             maven("https://dist.labymod.net/api/v1/maven/release/")
