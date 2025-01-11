@@ -24,6 +24,7 @@ public class TimeChanger extends LabyAddon<Configuration> {
   }
 
   public void setTime(long time) {
+    configuration().forceDaylightCycle().set(false);
     configuration().time().set(time % 24000);
   }
 

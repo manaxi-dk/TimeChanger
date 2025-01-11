@@ -1,0 +1,25 @@
+{
+  "timechanger": {
+    "settings": {
+      "name": "TimeChanger",
+      "enabled": {
+        "name": "Activé"
+      },
+      "forceDaylightCycle": {
+        "name": "Forcer le Cycle Jour/Nuit"
+      },
+      "time": {
+        "name": "Temps Personnalisé"
+      }
+    },
+    "commands": {
+      "arg1": "Vous devez spécifier un temps valide !",
+      "notEnabled": "TimeChanger n'est pas activé! Activez-le avec /time set <time>.",
+      "help": {
+        "line1": "/time set <temps> (temps peut être \"day\", \"night\", \"sunset\" ou une valeur numérique)",
+        "line2": "/time add <temps>",
+        "line3": "/time cycle (basculer le paramètre Forcer le Cycle Jour/Nuit)"
+      }
+    }
+  }
+}

@@ -13,8 +13,8 @@ public class Configuration extends AddonConfig {
   @SwitchSetting
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
   @SwitchSetting
-  private final ConfigProperty<Boolean> customTime = new ConfigProperty<>(false);
-  @SettingRequires(value = "customTime")
+  private final ConfigProperty<Boolean> forceDaylightCycle = new ConfigProperty<>(false);
+  @SettingRequires(value = "forceDaylightCycle", invert = true)
   @SliderSetting(steps = 100, min = 0, max = 24000)
   private final ConfigProperty<Long> time = new ConfigProperty<>(0L);
 
@@ -23,8 +23,8 @@ public class Configuration extends AddonConfig {
     return this.enabled;
   }
 
-  public ConfigProperty<Boolean> customTime() {
-    return customTime;
+  public ConfigProperty<Boolean> forceDaylightCycle() {
+    return forceDaylightCycle;
   }
 
   public ConfigProperty<Long> time() {

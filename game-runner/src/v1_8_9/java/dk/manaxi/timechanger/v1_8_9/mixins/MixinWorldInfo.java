@@ -1,25 +1,18 @@
 package dk.manaxi.timechanger.v1_8_9.mixins;
 
-import net.minecraft.world.storage.WorldInfo;
 import dk.manaxi.timechanger.core.TimeChanger;
+import net.minecraft.world.storage.WorldInfo;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(WorldInfo.class)
 public class MixinWorldInfo {
-  @Shadow
-  private long worldTime;
-
-  /**
-   * @author Itz_Hoffe
-   * @reason Set the time to the custom time if enabled
-   */
-  @Overwrite
-  public long getWorldTime() {
-    if(TimeChanger.instance.configuration().customTime().get() && TimeChanger.instance.configuration().enabled().get()) {
-      return TimeChanger.instance.getTime();
+  @Inject(method = "getWorldTime", at = @At("HEAD"), cancellable = true)
+  private void returnCustomDayTime(CallbackInfoReturnable<Long> cir) {
+    if(!TimeChanger.instance.configuration().forceDaylightCycle().get() && TimeChanger.instance.configuration().enabled().get()) {
+      cir.setReturnValue(TimeChanger.instance.getTime());
     }
-    return worldTime;
   }
 }
