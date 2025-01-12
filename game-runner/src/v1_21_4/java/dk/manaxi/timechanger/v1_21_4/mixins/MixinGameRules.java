@@ -4,26 +4,17 @@ import dk.manaxi.timechanger.core.TimeChanger;
 import net.minecraft.world.level.GameRules;
 import net.minecraft.world.level.GameRules.BooleanValue;
 import net.minecraft.world.level.GameRules.Key;
-import net.minecraft.world.level.GameRules.Value;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
+import org.spongepowered.asm.mixin.injection.At;
+import org.spongepowered.asm.mixin.injection.Inject;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(GameRules.class)
-public abstract class MixinGameRules {
-  @Shadow
-  public abstract <T extends Value<T>> T getRule(Key<T> $$0);
-
-  /**
-   * @author XXL_Steve
-   * @reason Always make daylight cycle game rule return true if option is enabled
-   */
-  @Overwrite
-  public boolean getBoolean(Key<BooleanValue> gameRule) {
-    System.out.println("Oh, so it really does check the game rule...");
-    if (gameRule.equals(GameRules.RULE_DAYLIGHT) && TimeChanger.instance.configuration().forceDaylightCycle().get() && TimeChanger.instance.configuration().enabled().get()) {
-      return true;
+public class MixinGameRules {
+  @Inject(method = "getBoolean", at = @At("HEAD"), cancellable = true)
+  private void forceDaylightCycle(Key<BooleanValue> lvt_1_1_, CallbackInfoReturnable<Boolean> cir) {
+    if (lvt_1_1_.equals(GameRules.RULE_DAYLIGHT) && TimeChanger.instance.configuration().forceDaylightCycle().get() && TimeChanger.instance.configuration().enabled().get()) {
+      cir.setReturnValue(true);
     }
-    return ((BooleanValue)this.getRule(gameRule)).get();
   }
 }
