@@ -7,6 +7,7 @@ import net.labymod.api.models.addon.annotation.AddonMain;
 @AddonMain
 public class TimeChanger extends LabyAddon<Configuration> {
   public static TimeChanger instance;
+  private static long dayTime = 0L; // Used for force daylight cycle
 
   @Override
   protected void enable() {
@@ -24,8 +25,16 @@ public class TimeChanger extends LabyAddon<Configuration> {
   }
 
   public void setTime(long time) {
-    configuration().forceDaylightCycle().set(false);
+    this.setDayTime(time);
     configuration().time().set(time % 24000);
+  }
+
+  public long getAndIncrementDayTime() {
+    return dayTime++;
+  }
+
+  public void setDayTime(long time) {
+    dayTime = time;
   }
 
   @Override

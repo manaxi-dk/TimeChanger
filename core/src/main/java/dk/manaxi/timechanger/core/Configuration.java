@@ -5,7 +5,6 @@ import net.labymod.api.client.gui.screen.widget.widgets.input.SliderWidget.Slide
 import net.labymod.api.client.gui.screen.widget.widgets.input.SwitchWidget.SwitchSetting;
 import net.labymod.api.configuration.loader.annotation.ConfigName;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
-import net.labymod.api.configuration.settings.annotation.SettingRequires;
 
 @ConfigName("settings")
 public class Configuration extends AddonConfig {
@@ -14,9 +13,10 @@ public class Configuration extends AddonConfig {
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
   @SwitchSetting
   private final ConfigProperty<Boolean> forceDaylightCycle = new ConfigProperty<>(false);
-  @SettingRequires(value = "forceDaylightCycle", invert = true)
   @SliderSetting(steps = 100, min = 0, max = 24000)
-  private final ConfigProperty<Long> time = new ConfigProperty<>(0L);
+  private final ConfigProperty<Long> time = new ConfigProperty<>(0L).addChangeListener(value -> {
+    TimeChanger.instance.setDayTime(value);
+  });
 
   @Override
   public ConfigProperty<Boolean> enabled() {
