@@ -5,19 +5,20 @@
       "enabled": {
         "name": "Enabled"
       },
-      "customTime": {
-        "name": "Custom time"
+      "forceDaylightCycle": {
+        "name": "Force Daylight Cycle"
       },
       "time": {
-        "name": "Time"
+        "name": "Custom Time"
       }
     },
     "commands": {
       "arg1": "You need to specify what time you would like to set it to!",
+      "notEnabled": "TimeChanger is not enabled! Enable it with /time set <time>.",
       "help": {
         "line1": "/time set <time> (time can be \"day\", \"night\", \"sunset\" or a custom time)",
         "line2": "/time add <time>",
-        "line3": "/time reset (change time to the default)"
+        "line3": "/time cycle (toggle Force Daylight Cycle setting)"
       }
     }
   }

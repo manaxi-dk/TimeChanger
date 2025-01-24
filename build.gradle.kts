@@ -26,7 +26,7 @@ labyMod {
         namespace = "timechanger"
         displayName = "TimeChanger"
         author = "Itz_Hoffe"
-        description = "Example Description"
+        description = "Change time ingame"
         minecraftVersion = "*"
         version = rootProject.version.toString()
     }

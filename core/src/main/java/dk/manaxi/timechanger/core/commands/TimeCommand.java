@@ -3,7 +3,6 @@ package dk.manaxi.timechanger.core.commands;
 import dk.manaxi.timechanger.core.TimeChanger;
 import net.labymod.api.client.chat.command.Command;
 import net.labymod.api.client.component.Component;
-import net.labymod.api.client.component.format.NamedTextColor;
 
 public class TimeCommand extends Command {
   public TimeCommand(TimeChanger addon) {
@@ -11,7 +10,7 @@ public class TimeCommand extends Command {
 
     this.withSubCommand(new TimeSetCommand(addon));
     this.withSubCommand(new TimeAddCommand(addon));
-    this.withSubCommand(new TimeResetCommand(addon));
+    this.withSubCommand(new TimeCycleCommand(addon));
   }
 
   @Override
