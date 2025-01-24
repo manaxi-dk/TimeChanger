@@ -11,9 +11,9 @@ public class TimeChanger extends LabyAddon<Configuration> {
 
   @Override
   protected void enable() {
-    this.registerSettingCategory();
-
     instance = this;
+
+    this.registerSettingCategory();
 
     this.registerCommand(new TimeCommand(this));
 
