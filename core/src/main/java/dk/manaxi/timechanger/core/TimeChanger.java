@@ -14,6 +14,7 @@ public class TimeChanger extends LabyAddon<Configuration> {
     instance = this;
 
     this.registerSettingCategory();
+    setDayTime(getTime());
 
     this.registerCommand(new TimeCommand(this));
 

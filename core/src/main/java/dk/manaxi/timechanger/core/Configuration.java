@@ -15,6 +15,7 @@ public class Configuration extends AddonConfig {
   private final ConfigProperty<Boolean> forceDaylightCycle = new ConfigProperty<>(false);
   @SliderSetting(steps = 100, min = 0, max = 24000)
   private final ConfigProperty<Long> time = new ConfigProperty<>(0L).addChangeListener(value -> {
+    if (TimeChanger.instance == null) return;
     TimeChanger.instance.setDayTime(value);
   });
 
