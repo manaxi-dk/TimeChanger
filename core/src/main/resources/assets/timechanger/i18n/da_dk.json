@@ -1,0 +1,29 @@
+{
+  "timechanger": {
+    "settings": {
+      "name": "TimeChanger",
+      "enabled": {
+        "name": "Aktiveret"
+      },
+      "forceDaylightCycle": {
+        "name": "Tving Dagslys Cykel"
+      },
+      "time": {
+        "name": "Brugerdefineret Tid"
+      }
+    },
+    "commands": {
+      "arg1": "Du skal angive, hvilken tid du vil indstille den til!",
+      "notEnabled": "TimeChanger er ikke aktiveret! Aktiver det med /time set <time>.",
+      "help": {
+        "line1": "/time set <tid> (tid kan være \"day\", \"night\", \"sunset\" eller en brugerdefineret tid)",
+        "line2": "/time add <tid>",
+        "line3": "/time cycle (skift Tving Dagslys Cykel indstilling)"
+      },
+      "set": "Tid indstillet til %s.",
+      "add": "Tilføjet %s til den nuværende tid.",
+      "cycleOn": "Tving Dagslys Cykel er nu TIL.",
+      "cycleOff": "Tving Dagslys Cykel er nu FRA."
+    }
+  }
+}

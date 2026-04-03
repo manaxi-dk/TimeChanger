@@ -25,6 +25,7 @@ public class TimeAddCommand  extends SubCommand {
 
     }
     addon.setTime(TimeChanger.instance.getTime() + time);
+    displayMessage(Component.translatable("timechanger.commands.add", Component.text(time)));
     return true;
   }
 }

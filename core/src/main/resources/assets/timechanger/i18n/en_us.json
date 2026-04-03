@@ -19,7 +19,11 @@
         "line1": "/time set <time> (time can be \"day\", \"night\", \"sunset\" or a custom time)",
         "line2": "/time add <time>",
         "line3": "/time cycle (toggle Force Daylight Cycle setting)"
-      }
+      },
+      "set": "Time set to %s.",
+      "add": "Added %s to the current time.",
+      "cycleOn": "Force Daylight Cycle is now ON.",
+      "cycleOff": "Force Daylight Cycle is now OFF."
     }
   }
 }

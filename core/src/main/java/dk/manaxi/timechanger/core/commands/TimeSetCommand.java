@@ -41,6 +41,7 @@ public class TimeSetCommand extends SubCommand {
       }
     }
     addon.setTime(time);
+    displayMessage(Component.translatable("timechanger.commands.set", Component.text(time)));
     return true;
   }
 }
