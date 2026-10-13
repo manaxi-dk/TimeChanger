@@ -1,32 +1,33 @@
 package dk.manaxi.timechanger.v26_2.mixins;
 
 import dk.manaxi.timechanger.core.TimeChanger;
-import dk.manaxi.timechanger.v26_2.packages.IClientClockInstance;
-import java.util.Map;
 import net.minecraft.client.ClientClockManager;
 import net.minecraft.core.Holder;
 import net.minecraft.world.clock.WorldClock;
-import org.spongepowered.asm.mixin.Final;
+import net.minecraft.world.clock.WorldClocks;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(ClientClockManager.class)
 public abstract class MixinClientClockManager {
-  @Shadow
-  @Final
-  private Map<Holder<WorldClock>, ?> clocks;
+  /** Keep Minecraft's clock updates intact; advance the visual override once per update. */
+  @Inject(method = "tick", at = @At("TAIL"))
+  private void timechanger$advance(long gameTime, CallbackInfo ci) {
+    TimeChanger addon = TimeChanger.instance;
+    if (addon.configuration().enabled().get() && addon.configuration().forceDaylightCycle().get()) {
+      addon.getAndIncrementDayTime();
+    }
+  }
 
-  @Inject(method = "tick", at = @At("HEAD"), cancellable = true)
-  public void calculateManagedRateForClocks(CallbackInfo callbackInfo) {
-    if (TimeChanger.instance.configuration().enabled().get()) {
-      clocks.forEach((clock, rawInstance) -> {
-        IClientClockInstance clockInstance = (IClientClockInstance) rawInstance;
-        clockInstance.setClocktime(TimeChanger.instance.configuration().forceDaylightCycle().get() ? TimeChanger.instance.getAndIncrementDayTime() : TimeChanger.instance.getTime());
-      });
-      callbackInfo.cancel();
+  /** Override only the displayed Overworld time; server clocks remain untouched. */
+  @Inject(method = "getTotalTicks", at = @At("RETURN"), cancellable = true)
+  private void timechanger$display(Holder<WorldClock> clock, CallbackInfoReturnable<Long> cir) {
+    TimeChanger addon = TimeChanger.instance;
+    if (clock.is(WorldClocks.OVERWORLD) && addon.configuration().enabled().get()) {
+      cir.setReturnValue(addon.getDisplayTime(true));
     }
   }
 }

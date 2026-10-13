@@ -6,10 +6,17 @@
         "name": "Enabled"
       },
       "forceDaylightCycle": {
-        "name": "Force Daylight Cycle"
+        "name": "Time mode"
+      },
+      "cycleSpeed": {
+        "name": "Cycling speed"
       },
       "time": {
-        "name": "Custom Time"
+        "name": "Sky & time"
+      },
+      "timePicker": {
+        "name": "Time Picker",
+        "text": "Open picker"
       }
     },
     "commands": {
@@ -24,6 +31,38 @@
       "add": "Added %s to the current time.",
       "cycleOn": "Force Daylight Cycle is now ON.",
       "cycleOff": "Force Daylight Cycle is now OFF."
+    },
+    "picker": {
+      "title": "Choose your sky",
+      "preview": "Illustrative preview",
+      "cycleSpeed": "0.001–100×. 1× is normal; lower values slow time down.",
+      "invalidSpeed": "Enter a speed from 0.001 to 100.",
+      "cycleDuration": "Full day and night: approximately %s",
+      "durationHint": "Estimate at 20 time updates per second. Pauses and different update rates affect duration.",
+      "duration": { "days": "%s d", "hours": "%s h", "minutes": "%s min", "seconds": "%s s" },
+      "exactTime": "Exact time (ticks)",
+      "ticks": "%s ticks",
+      "invalidTime": "Enter a whole number of ticks.",
+      "saveFailed": "Could not save settings. Your changes are active; saving will be retried.",
+      "serverHint": "Following server time. Select Fixed or Cycling to choose your sky.",
+      "fixedHint": "Your sky stays at the selected time. Changes apply immediately.",
+      "cyclingHint": "Your sky advances from the selected time while in a world.",
+      "timelineHint": "Drag to choose time. Arrow keys: 100 ticks. Home: sunrise. End: 23900 ticks.",
+      "preset": {
+        "sunrise": "Sunrise",
+        "noon": "Noon",
+        "sunset": "Sunset",
+        "midnight": "Midnight"
+      },
+      "mode": {
+        "server": "Server",
+        "fixed": "Fixed",
+        "cycling": "Cycling",
+        "serverDescription": "Follow server time; turn off the time override.",
+        "fixedDescription": "Keep the sky at your selected time.",
+        "cyclingDescription": "Advance the daylight cycle from your selected time."
+      },
+      "savedTime": "Saved time: %s"
     }
   }
 }

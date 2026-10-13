@@ -6,10 +6,17 @@
         "name": "Aktiveret"
       },
       "forceDaylightCycle": {
-        "name": "Tving Dagslys Cykel"
+        "name": "Tidstilstand"
+      },
+      "cycleSpeed": {
+        "name": "Cyklushastighed"
       },
       "time": {
-        "name": "Brugerdefineret Tid"
+        "name": "Himmel og tid"
+      },
+      "timePicker": {
+        "name": "Tidsvælger",
+        "text": "Åbn"
       }
     },
     "commands": {
@@ -24,6 +31,38 @@
       "add": "Tilføjet %s til den nuværende tid.",
       "cycleOn": "Tving Dagslys Cykel er nu TIL.",
       "cycleOff": "Tving Dagslys Cykel er nu FRA."
+    },
+    "picker": {
+      "title": "Vælg din himmel",
+      "preview": "Illustrativ forhåndsvisning",
+      "cycleSpeed": "0,001–100×. 1× er normal hastighed; lavere værdier sænker tiden.",
+      "invalidSpeed": "Indtast en hastighed fra 0,001 til 100.",
+      "cycleDuration": "Et helt døgn: cirka %s",
+      "durationHint": "Beregnet ved 20 tidsopdateringer i sekundet. Pauser og andre opdateringshastigheder påvirker varigheden.",
+      "duration": { "days": "%s d", "hours": "%s t", "minutes": "%s min", "seconds": "%s s" },
+      "exactTime": "Præcis tid (ticks)",
+      "ticks": "%s ticks",
+      "invalidTime": "Indtast et helt antal ticks.",
+      "saveFailed": "Indstillingerne kunne ikke gemmes. Ændringerne er aktive; der forsøges igen.",
+      "serverHint": "Følger servertiden. Vælg Fast eller Cyklus for at ændre himlen.",
+      "fixedHint": "Himlen bliver på det valgte tidspunkt. Ændringer træder i kraft med det samme.",
+      "cyclingHint": "Himlen følger en cyklus fra det valgte tidspunkt, mens du er i en verden.",
+      "timelineHint": "Træk for at vælge tid. Piletaster: 100 ticks. Home: solopgang. End: 23900 ticks.",
+      "preset": {
+        "sunrise": "Solopgang",
+        "noon": "Middag",
+        "sunset": "Solnedgang",
+        "midnight": "Midnat"
+      },
+      "mode": {
+        "server": "Server",
+        "fixed": "Fast",
+        "cycling": "Cyklus",
+        "serverDescription": "Følg servertiden uden at ændre den.",
+        "fixedDescription": "Behold himlen på det valgte tidspunkt.",
+        "cyclingDescription": "Lad dag/nat-cyklussen fortsætte fra det valgte tidspunkt."
+      },
+      "savedTime": "Gemt tidspunkt: %s"
     }
   }
 }

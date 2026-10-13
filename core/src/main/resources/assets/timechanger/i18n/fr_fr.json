@@ -6,10 +6,17 @@
         "name": "Activé"
       },
       "forceDaylightCycle": {
-        "name": "Forcer le Cycle Jour/Nuit"
+        "name": "Mode horaire"
+      },
+      "cycleSpeed": {
+        "name": "Vitesse du cycle"
       },
       "time": {
-        "name": "Temps Personnalisé"
+        "name": "Ciel et heure"
+      },
+      "timePicker": {
+        "name": "Sélecteur d'heure",
+        "text": "Ouvrir"
       }
     },
     "commands": {
@@ -20,6 +27,38 @@
         "line2": "/time add <temps>",
         "line3": "/time cycle (basculer le paramètre Forcer le Cycle Jour/Nuit)"
       }
+    },
+    "picker": {
+      "title": "Choisissez votre ciel",
+      "preview": "Aperçu illustratif",
+      "cycleSpeed": "0,001–100×. 1× est la vitesse normale ; une valeur inférieure ralentit le temps.",
+      "invalidSpeed": "Saisissez une vitesse entre 0,001 et 100.",
+      "cycleDuration": "Jour et nuit complets : environ %s",
+      "durationHint": "Estimation à 20 mises à jour par seconde. Les pauses et la fréquence réelle modifient la durée.",
+      "duration": { "days": "%s j", "hours": "%s h", "minutes": "%s min", "seconds": "%s s" },
+      "exactTime": "Heure exacte (ticks)",
+      "ticks": "%s ticks",
+      "invalidTime": "Saisissez un nombre entier de ticks.",
+      "saveFailed": "Enregistrement impossible. Vos changements sont actifs ; une nouvelle tentative suivra.",
+      "serverHint": "Heure du serveur. Choisissez Fixe ou Cycle pour modifier votre ciel.",
+      "fixedHint": "Le ciel reste à l'heure choisie. Les changements sont immédiats.",
+      "cyclingHint": "Le ciel évolue à partir de l'heure choisie lorsque vous êtes en jeu.",
+      "timelineHint": "Glissez pour choisir l'heure. Flèches : 100 ticks. Début : aube. Fin : 23900 ticks.",
+      "preset": {
+        "sunrise": "Aube",
+        "noon": "Midi",
+        "sunset": "Crépuscule",
+        "midnight": "Minuit"
+      },
+      "mode": {
+        "server": "Serveur",
+        "fixed": "Fixe",
+        "cycling": "Cycle",
+        "serverDescription": "Suivre l'heure du serveur sans la modifier.",
+        "fixedDescription": "Garder le ciel à l'heure choisie.",
+        "cyclingDescription": "Faire avancer le cycle jour/nuit à partir de l'heure choisie."
+      },
+      "savedTime": "Heure enregistrée : %s"
     }
   }
 }

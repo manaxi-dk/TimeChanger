@@ -1,0 +1,107 @@
+.picker-scroll {
+  left: 50%;
+  alignment-x: center;
+  width: 92%;
+  max-width: 420;
+  top: 12;
+  bottom: 12;
+  padding: 12;
+  background-color: rgba(25, 35, 51, 238);
+  border: 1 #46546b;
+}
+
+.picker-content {
+  width: 100%;
+  height: fit-content;
+  space-between-entries: 4;
+}
+
+.picker-title {
+  height: 16;
+  font-size: 1.1;
+}
+
+.mode-row {
+  height: 22;
+  layout: fill;
+  space-between-entries: 5;
+}
+
+.mode-button {
+  width: 100%;
+  height: 22;
+}
+
+.mode-button:selected {
+  border: 1 #839cff;
+}
+
+.mode-button:selected {
+  background-color: #405ee8;
+}
+
+.mode-button:focus, .time-preset:focus, .cycle-speed-slider:focus {
+  border: 1 #ffffff;
+}
+
+.picker-hint, .preview-caption, .input-caption {
+  height: fit-content;
+  max-lines: 0;
+  overflow-strategy: wrap;
+}
+
+.picker-hint, .preview-caption, .tick-readout {
+  text-color: #a0a5b3;
+}
+
+.sky-preview {
+  height: 52;
+}
+
+.preset-grid {
+  height: fit-content;
+  tiles-per-line: 4;
+  tile-height: 44;
+  space-between-entries: 6;
+}
+
+/* TilesGridWidget owns each card's bounds. Percentage sizes resolve against
+   the whole grid because TileWidget forwards its child's properties. */
+
+.time-preset Component {
+  text-color: #ffffff;
+  shadow: true;
+}
+
+.time-preset:not(:enabled) {
+  opacity: 0.45;
+}
+
+.time-timeline {
+  height: 24;
+  draggable: true;
+}
+
+.time-readout {
+  height: 16;
+  font-size: 1.1;
+}
+
+.tick-readout {
+  height: 12;
+}
+
+.exact-time {
+  height: 20;
+}
+
+.cycle-speed-slider {
+  width: 100%;
+  height: 20;
+}
+
+.picker-error {
+  height: fit-content;
+  text-color: #ff8888;
+  overflow-strategy: wrap;
+}
