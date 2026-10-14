@@ -18,6 +18,9 @@ public abstract class MixinClientClockManager {
   @Inject(method = "tick", at = @At("TAIL"))
   private void timechanger$advance(long gameTime, CallbackInfo ci) {
     TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
     if (addon.configuration().enabled().get() && addon.configuration().forceDaylightCycle().get()) {
       addon.getAndIncrementDayTime();
     }

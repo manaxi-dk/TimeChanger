@@ -15,12 +15,16 @@ public class MixinClientLevelData {
 
   @Inject(method = "setDayTime", at = @At("HEAD"), cancellable = true)
   private void setCustomDayTime(long $$0, CallbackInfo ci) {
-    if (TimeChanger.instance.configuration().enabled().get()) {
-      if(TimeChanger.instance.configuration().forceDaylightCycle().get()) {
-        dayTime = TimeChanger.instance.getAndIncrementDayTime();
+    TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
+    if (addon.configuration().enabled().get()) {
+      if(addon.configuration().forceDaylightCycle().get()) {
+        dayTime = addon.getAndIncrementDayTime();
         ci.cancel();
       } else {
-        dayTime = TimeChanger.instance.getTime();
+        dayTime = addon.getTime();
         ci.cancel();
       }
     }

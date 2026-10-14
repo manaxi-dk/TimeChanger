@@ -15,12 +15,16 @@ public class MixinWorldInfo {
 
   @Inject(method = "setWorldTime", at = @At("HEAD"), cancellable = true)
   private void setCustomWorldTime(long $$0, CallbackInfo ci) {
-    if (TimeChanger.instance.configuration().enabled().get()) {
-      if(TimeChanger.instance.configuration().forceDaylightCycle().get()) {
-        worldTime = TimeChanger.instance.getAndIncrementDayTime();
+    TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
+    if (addon.configuration().enabled().get()) {
+      if(addon.configuration().forceDaylightCycle().get()) {
+        worldTime = addon.getAndIncrementDayTime();
         ci.cancel();
       } else {
-        worldTime = TimeChanger.instance.getTime();
+        worldTime = addon.getTime();
         ci.cancel();
       }
     }

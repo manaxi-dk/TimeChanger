@@ -22,6 +22,9 @@ public class MixinClientClockInstance implements IClientClockInstance {
   @Inject(method = "totalTicks", at = @At("RETURN"), cancellable = true)
   private void timechanger$display(CallbackInfoReturnable<Long> cir) {
     TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
     if (this.timechanger$overworld && addon.configuration().enabled().get()) {
       cir.setReturnValue(addon.getDisplayTime(true));
     }

@@ -15,7 +15,11 @@ public class MixinClientLevel {
 
   @Inject(method = "setTimeFromServer", at = @At("TAIL"))
   private void setCustomTickDayTime(long time, long timeOfDay, boolean doDaylightCycle, CallbackInfo ci) {
-    if (TimeChanger.instance.configuration().forceDaylightCycle().get() && TimeChanger.instance.configuration().enabled().get()) {
+    TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
+    if (addon.configuration().forceDaylightCycle().get() && addon.configuration().enabled().get()) {
       tickDayTime = true;
     }
   }

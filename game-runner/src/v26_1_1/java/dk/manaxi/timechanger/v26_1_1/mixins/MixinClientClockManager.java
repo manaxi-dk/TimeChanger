@@ -17,6 +17,9 @@ public abstract class MixinClientClockManager {
   @Inject(method = "tick", at = @At("TAIL"))
   private void timechanger$advance(long gameTime, CallbackInfo ci) {
     TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
     if (addon.configuration().enabled().get() && addon.configuration().forceDaylightCycle().get()) {
       addon.getAndIncrementDayTime();
     }
@@ -26,6 +29,9 @@ public abstract class MixinClientClockManager {
   @Inject(method = "getTotalTicks", at = @At("RETURN"), cancellable = true)
   private void timechanger$display(Holder<WorldClock> clock, CallbackInfoReturnable<Long> cir) {
     TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
     if (clock.is(WorldClocks.OVERWORLD) && addon.configuration().enabled().get()) {
       cir.setReturnValue(addon.getDisplayTime(true));
     }

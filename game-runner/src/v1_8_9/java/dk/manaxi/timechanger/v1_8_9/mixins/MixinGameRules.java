@@ -11,7 +11,11 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class MixinGameRules {
   @Inject(method = "getBoolean", at = @At("HEAD"), cancellable = true)
   private void forceDaylightCycle(String lvt_1_1_, CallbackInfoReturnable<Boolean> cir) {
-    if (lvt_1_1_.equals("doDaylightCycle") && TimeChanger.instance.configuration().forceDaylightCycle().get() && TimeChanger.instance.configuration().enabled().get()) {
+    TimeChanger addon = TimeChanger.instance;
+    if (addon == null) {
+      return;
+    }
+    if (lvt_1_1_.equals("doDaylightCycle") && addon.configuration().forceDaylightCycle().get() && addon.configuration().enabled().get()) {
       cir.setReturnValue(true);
     }
   }
