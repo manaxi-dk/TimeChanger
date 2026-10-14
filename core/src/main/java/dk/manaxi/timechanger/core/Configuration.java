@@ -4,29 +4,23 @@ import dk.manaxi.timechanger.core.ui.TimePickerSettingWidget.TimePickerSetting;
 import dk.manaxi.timechanger.core.ui.TimePickerWidget.Section;
 import net.labymod.api.addon.AddonConfig;
 import net.labymod.api.configuration.loader.annotation.ConfigName;
-import net.labymod.api.configuration.loader.annotation.SpriteTexture;
-import net.labymod.api.configuration.loader.annotation.SpriteSlot;
 import net.labymod.api.configuration.loader.property.ConfigProperty;
 import net.labymod.api.configuration.settings.annotation.SettingRequiresExclude;
 import net.labymod.api.configuration.settings.annotation.SettingOrder;
 
 @ConfigName("settings")
-@SpriteTexture("sprite/settings.png")
 public class Configuration extends AddonConfig {
 
   private final ConfigProperty<Boolean> enabled = new ConfigProperty<>(true);
   @TimePickerSetting(Section.MODE)
-  @SpriteSlot(x = 0, y = 0)
   @SettingRequiresExclude
   @SettingOrder(0)
   private final ConfigProperty<Boolean> forceDaylightCycle = new ConfigProperty<>(false);
   @TimePickerSetting(Section.SPEED)
-  @SpriteSlot(x = 1, y = 0)
   @SettingRequiresExclude
   @SettingOrder(1)
   private final ConfigProperty<Double> cycleSpeed = new ConfigProperty<>(1.0);
   @TimePickerSetting
-  @SpriteSlot(x = 2, y = 0)
   @SettingRequiresExclude
   @SettingOrder(2)
   private final ConfigProperty<Long> time = new ConfigProperty<>(0L).addChangeListener(value -> {

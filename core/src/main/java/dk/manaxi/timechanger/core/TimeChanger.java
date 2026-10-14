@@ -46,7 +46,7 @@ public class TimeChanger extends LabyAddon<Configuration> {
 
   public double getCycleSpeed() {
     Double speed = configuration().cycleSpeed().get();
-    return speed == null || !Double.isFinite(speed) ? 1.0 : Math.max(0.001, Math.min(100, speed));
+    return speed == null || !Double.isFinite(speed) ? 1.0 : Math.clamp(speed, 0.001, 100);
   }
 
   public void setCycleSpeed(double speed) {
