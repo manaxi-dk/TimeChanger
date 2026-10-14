@@ -1,32 +1,35 @@
 package dk.manaxi.timechanger.v1_12_2.mixins;
 
 import dk.manaxi.timechanger.core.TimeChanger;
+import dk.manaxi.timechanger.core.TimeDataAccess;
+import net.minecraft.client.Minecraft;
 import net.minecraft.world.storage.WorldInfo;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 @Mixin(WorldInfo.class)
-public class MixinWorldInfo {
+public class MixinWorldInfo implements TimeDataAccess {
   @Shadow
   private long worldTime;
 
-  @Inject(method = "setWorldTime", at = @At("HEAD"), cancellable = true)
-  private void setCustomWorldTime(long $$0, CallbackInfo ci) {
+  @Override
+  public long timechanger$getServerTime() {
+    return this.worldTime;
+  }
+
+  @Inject(method = "getWorldTime", at = @At("RETURN"), cancellable = true)
+  private void timechanger$display(CallbackInfoReturnable<Long> cir) {
     TimeChanger addon = TimeChanger.instance;
-    if (addon == null) {
+    if (addon == null || !addon.configuration().enabled().get()) {
       return;
     }
-    if (addon.configuration().enabled().get()) {
-      if(addon.configuration().forceDaylightCycle().get()) {
-        worldTime = addon.getAndIncrementDayTime();
-        ci.cancel();
-      } else {
-        worldTime = addon.getTime();
-        ci.cancel();
-      }
+    Minecraft minecraft = Minecraft.getMinecraft();
+    if (minecraft != null && minecraft.world != null
+        && minecraft.world.getWorldInfo() == (Object) this) {
+      cir.setReturnValue(addon.getDisplayTime(true));
     }
   }
 }
