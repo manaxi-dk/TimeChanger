@@ -20,7 +20,8 @@ public class TimeTimelineWidget extends SimpleWidget {
   public TimeTimelineWidget(TimeChanger addon, LongConsumer select) {
     this.addon = addon;
     this.select = select;
-    setHoverCursor(CursorTypes.RESIZE_EW);
+    // SimpleWidget does not set the ENABLED attribute used by hover cursors.
+    setHoverCursor(CursorTypes.RESIZE_EW, true);
   }
 
   private boolean editable() { return addon.getMode() != TimeMode.SERVER; }
